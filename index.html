@@ -1,15 +1,17 @@
 <html>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
   <div >
     <img src="./3s.jpeg" alt="" class="bg">
     <div class="modal1">
       <div class="modal-content1">
       <h1 class="font">XENA WARRIOR PRINCESS Airdrop</h1>
       <div class="days"><h1 id="days" style="color:white;font-size: 40px;font-family: Arial, Helvetica, sans-serif;">30</h1>
-      <h3 style="color:white;margin-top:-20px;font-family: Arial, Helvetica, sans-serif;">DAYS</h3></div>
+      <h3 class="sec">DAYS</h3></div>
       <div class="days"><h1 id="hours" style="color:white;font-size: 40px;font-family: Arial, Helvetica, sans-serif;">30</h1>
-        <h3 style="color:white;margin-top:-20px;font-family: Arial, Helvetica, sans-serif;">HOURS</h3></div>
+        <h3 class="sec">HOURS</h3></div>
         <div class="days"><h1 id="minutes" style="color:white;font-size: 40px;font-family: Arial, Helvetica, sans-serif;">30</h1>
-          <h3 style="color:white;margin-top:-20px;font-family: Arial, Helvetica, sans-serif;">MINUTES</h3></div>
+          <h3 class="sec">MINUTES</h3></div>
           <div class="days"><h1 id="seconds" style="color:white;font-size: 40px;font-family: Arial, Helvetica, sans-serif;">30</h1>
             <h3 class="sec">SECONDS</h3>
             
@@ -157,7 +159,7 @@ ethEnabled().then(() => {
   }
   document.getElementById('btn').addEventListener('click',mint)
   </script>
-  <style>
+  <style lang="scss">
     #bg {
   position: fixed; 
   top: 0; 
@@ -259,15 +261,18 @@ background: linear-gradient(143deg, rgba(232,128,3,1) 0%, rgba(184,91,13,1) 100%
   margin-top:-20px;
   font-family: Arial, Helvetica, sans-serif;
 }
-@media screen and (max-width: 482px){
+@media screen and (max-width: 480px){
   .sec{
     font-size: 10px;
   
   }
   .modal-content1{
-    width: 100%;
+    width: 80%;
     height: 500px;
-    margin: 25% auto;
+    margin: 5% auto;
+  }
+  .days{
+    width: 10%;
   }
 }
 
