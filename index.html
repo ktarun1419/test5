@@ -6,13 +6,13 @@
     <div class="modal1">
       <div class="modal-content1">
       <h1 class="font">XENA WARRIOR PRINCESS Airdrop</h1>
-      <div class="days"><h1 id="days" style="color:white;font-size: 40px;font-family: Arial, Helvetica, sans-serif;">30</h1>
+      <div class="days"><h1 id="days" class="sec2">30</h1>
       <h3 class="sec">DAYS</h3></div>
-      <div class="days"><h1 id="hours" style="color:white;font-size: 40px;font-family: Arial, Helvetica, sans-serif;">30</h1>
+      <div class="days"><h1 id="hours" class="sec2">30</h1>
         <h3 class="sec">HOURS</h3></div>
-        <div class="days"><h1 id="minutes" style="color:white;font-size: 40px;font-family: Arial, Helvetica, sans-serif;">30</h1>
+        <div class="days"><h1 id="minutes" class="sec2">30</h1>
           <h3 class="sec">MINUTES</h3></div>
-          <div class="days"><h1 id="seconds" style="color:white;font-size: 40px;font-family: Arial, Helvetica, sans-serif;">30</h1>
+          <div class="days"><h1 id="seconds" class="sec2">30</h1>
             <h3 class="sec">SECONDS</h3>
             
           </div>
@@ -225,7 +225,7 @@ background: linear-gradient(143deg, rgba(232,128,3,1) 0%, rgba(184,91,13,1) 100%
   text-align: center;
   margin-left: 10px;
   padding: 20px;
-  height: 120px;
+  height: 100px;
   width: 14%;
   background: rgb(232,128,3);
   border-radius: 20px;
@@ -261,18 +261,31 @@ background: linear-gradient(143deg, rgba(232,128,3,1) 0%, rgba(184,91,13,1) 100%
   margin-top:-20px;
   font-family: Arial, Helvetica, sans-serif;
 }
+.sec2{
+  font-size: 40px;
+  color:white;
+  margin-top:-20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
 @media screen and (max-width: 480px){
   .sec{
     font-size: 10px;
+    margin-top: 10px;
   
+  }.sec2{
+    font-size: 20px;
+    margin-top: 20px;
   }
   .modal-content1{
-    width: 80%;
+    width: 90%;
     height: 500px;
     margin: 5% auto;
   }
   .days{
-    width: 10%;
+    width: 8%;
+    height: 60px;
+    margin-left: 0px;
+    
   }
 }
 
